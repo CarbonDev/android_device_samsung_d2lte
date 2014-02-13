@@ -1,11 +1,5 @@
 [
   {
-   "remote": "cr",
-   "repository": "CarbonDev/android_device_samsung_d2-common",
-   "target_path": "device/samsung/d2-common",
-   "revision": "kk"
-  },
-  {
    "remote": "cm",
    "repository": "CyanogenMod/android_device_samsung_qcom-common",
    "target_path": "device/samsung/qcom-common",
@@ -27,6 +21,6 @@
   "remote": "gh",
   "repository": "TheMuppets/proprietary_vendor_samsung",
   "target_path": "vendor/samsung",
-  "revision": "cm-11.0"
+  "revision": "wip"
   }
 ]
