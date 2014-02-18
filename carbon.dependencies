@@ -24,9 +24,7 @@
    "revision": "cm-11.0"
   },
   {
-  "remote": "gh",
   "repository": "TheMuppets/proprietary_vendor_samsung",
-  "target_path": "vendor/samsung",
-  "revision": "wip"
+  "target_path": "vendor/samsung"
   }
 ]
