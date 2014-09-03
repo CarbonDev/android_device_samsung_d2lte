@@ -55,6 +55,9 @@ TARGET_NEED_SAMSUNG_CAMERA_MODE := true
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/samsung/d2lte/ril
+
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_HOSTAPD_DRIVER := NL80211
