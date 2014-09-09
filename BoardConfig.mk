@@ -23,6 +23,8 @@
 # inherit from common msm8960
 -include device/samsung/msm8960-common/BoardConfigCommon.mk
 
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/d2lte/include
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2att,d2spr,d2spi,d2tfnspr,d2tmo,d2cri,d2mtr,d2usc,d2vmu,d2vzw,d2lte,d2can
 
@@ -54,6 +56,9 @@ TARGET_NEED_SAMSUNG_CAMERA_MODE := true
 
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1
+
+# GPS
+TARGET_NO_RPC := true
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/samsung/d2lte/ril
